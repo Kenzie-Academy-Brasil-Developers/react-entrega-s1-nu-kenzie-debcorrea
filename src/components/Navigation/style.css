@@ -1,0 +1,54 @@
+.navigationArea {
+  font-family: "Nunito", sans-serif;
+  max-width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigationArea > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #212529;
+}
+
+.navigationList {
+  display: flex;
+  gap: 1rem;
+}
+
+.listItem > button {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.filterEntries,
+.filterExpenses,
+.filterAll {
+  width: 92px;
+  color: #5b6166;
+  background-color: #e9ecef;
+  border: 1.4px solid #e9ecef;
+}
+
+.listItem > button:hover {
+  background-color: #5b6166;
+  color: #ffffff;
+  border: 1.4px solid #5b6166;
+}
+
+.listItem > button:focus {
+  background-color: #fd377e;
+  color: #ffffff;
+  border: 1.4px solid #fd377e;
+}
+
+@media (min-width: 768px) {
+  .navigationArea {
+    width: 560px;
+    justify-content: space-between;
+  }
+}

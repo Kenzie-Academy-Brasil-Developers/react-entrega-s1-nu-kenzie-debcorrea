@@ -1,0 +1,15 @@
+.containerMain {
+  width: 100vw;
+  height: 100vh;
+  background-color: #212529;
+  padding: 4.5rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 1024px) {
+  .containerMain {
+    padding: 0;
+    align-items: center;
+  }
+}

@@ -1,0 +1,13 @@
+.cardList {
+  max-width: 560px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .cardList {
+    width: 560px;
+  }
+}

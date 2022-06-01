@@ -1,0 +1,11 @@
+.landingImage > img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .landingImage > img {
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+  }
+}

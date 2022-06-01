@@ -1,0 +1,38 @@
+.containerTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  max-height: 324px;
+}
+
+.containerTexts > img {
+  max-width: 122px;
+  max-height: 20px;
+}
+
+.containerTexts > h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  color: #ffffff;
+  max-width: 347px;
+}
+
+.containerTexts > span {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.landingButton {
+  width: 241px;
+  height: 48px;
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}

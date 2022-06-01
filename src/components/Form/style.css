@@ -1,0 +1,106 @@
+.form {
+  max-width: 363px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 2.4rem 1.5rem;
+}
+
+.descriptionContainer {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.descriptionContainer > label {
+  color: #212529;
+  font-size: 12px;
+}
+
+.descriptionContainer > input {
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  font-size: 16px;
+  height: 52px;
+  padding: 0.8rem 1rem;
+}
+
+.descriptionContainer > span {
+  color: #868e96;
+  font-size: 12px;
+}
+
+.valueContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+  justify-content: space-between;
+}
+
+.value,
+.valueType {
+  display: flex;
+  flex-direction: column;
+  gap: 0.56rem;
+  font-weight: 400;
+}
+
+.value > label,
+.valueType > label {
+  color: #212529;
+  font-size: 12px;
+}
+
+.value > input,
+.valueType > select {
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 0.68rem 1rem;
+  height: 48px;
+}
+
+.value > input:focus,
+.valueType > select:focus {
+  border: #212529;
+}
+
+.value > input {
+  max-width: 128px;
+}
+
+.valueType > select {
+  max-width: 150px;
+}
+
+.valueContainer > button {
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  height: 48px;
+}
+
+.valueContainer > button:hover {
+  background-color: #e34981;
+  border: #e34981;
+  color: #f8f9fa;
+}
+
+@media (max-width: 340px) {
+  .value > input {
+    width: 90px;
+  }
+
+  .valueType > select {
+    width: 110px;
+  }
+}

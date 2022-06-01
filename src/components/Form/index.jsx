@@ -11,7 +11,7 @@ function Form({ listTransactions, setListTransactions, id }) {
   const transaction = {
     description: description,
     type: option,
-    value: option === "Entrada" ? value : -value,
+    value: value,
     id: id
   };
 

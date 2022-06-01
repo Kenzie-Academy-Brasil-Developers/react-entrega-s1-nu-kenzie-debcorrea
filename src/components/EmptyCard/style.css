@@ -4,3 +4,8 @@
   font-weight: 700;
   color: #5b6166;
 }
+
+.emptyCardImage {
+  max-width: 100%;
+  height: 262.05px;
+}

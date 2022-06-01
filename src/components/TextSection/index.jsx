@@ -5,7 +5,7 @@ import "./style.css";
 function TextSection() {
   return (
     <section className="containerTexts">
-      <img src={Logo} alt="Logo Nu Kenzie" />
+      <img src={Logo} alt="Logo Nu Kenzie de cores rosa e branco" />
       <h1>Centralize o controle das suas finanças</h1>
       <span>de forma rápida e segura</span>
       <Link to="/home">

@@ -7,19 +7,13 @@ function Navigation({ setFilter }) {
       <nav>
         <ul className="navigationList">
           <li className="listItem">
-            <button className="filterAll" onClick={() => setFilter("Todos")}>
-              Todos
-            </button>
+            <button onClick={() => setFilter("Todos")}>Todos</button>
           </li>
           <li className="listItem">
-            <button className="filterEntries" onClick={() => setFilter("Entrada")}>
-              Entradas
-            </button>
+            <button onClick={() => setFilter("Entrada")}>Entradas</button>
           </li>
           <li className="listItem">
-            <button className="filterExpenses" onClick={() => setFilter("Saída")}>
-              Despesas
-            </button>
+            <button onClick={() => setFilter("Saída")}>Despesas</button>
           </li>
         </ul>
       </nav>

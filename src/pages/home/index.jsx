@@ -1,4 +1,4 @@
-import "../../App.css";
+import "./style.css";
 import "../../css/reset.css";
 import Header from "../../components/Header";
 import Form from "../../components/Form";
@@ -14,10 +14,7 @@ function Home() {
 
   const [filter, setFilter] = useState("Todos");
 
-  function id() {
-    const ID = "id-" + Math.random().toString(16).slice(2);
-    return ID;
-  }
+  const id = () => "id-" + Math.random().toString(16).slice(2);
 
   const removeTransaction = (removeTrs) => {
     const removeItem = listTransactions.filter(
@@ -27,7 +24,7 @@ function Home() {
   };
 
   return (
-    <div className="App">
+    <div className="Home">
       <Header />
       <main>
         <div className="formContainer">

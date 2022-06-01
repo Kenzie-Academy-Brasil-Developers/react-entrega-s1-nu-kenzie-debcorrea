@@ -20,18 +20,13 @@
 
 .listItem > button {
   height: 40px;
+  width: 92px;
   font-size: 14px;
   font-weight: 600;
+  border: 1.4px solid #e9ecef;
   border-radius: 8px;
-}
-
-.filterEntries,
-.filterExpenses,
-.filterAll {
-  width: 92px;
   color: #5b6166;
   background-color: #e9ecef;
-  border: 1.4px solid #e9ecef;
 }
 
 .listItem > button:hover {
